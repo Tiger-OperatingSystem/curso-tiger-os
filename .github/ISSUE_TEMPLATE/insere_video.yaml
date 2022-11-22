@@ -9,6 +9,6 @@ body:
   attributes:
     label: Título do vídeo
 - type: input
-  id: videotitle
+  id: videodescription
   attributes:
     label: Descrição do vídeo
