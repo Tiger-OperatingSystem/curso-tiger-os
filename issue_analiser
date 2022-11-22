@@ -1,0 +1,32 @@
+#!/usr/bin/bash
+
+function field() {
+  local line=$(echo "${1}*4-1" | bc)
+  echo "${issue}" | sed -n "${line}p"
+}
+
+author=$(gh issue view "${ISSUE_URL}" --json author | cut -d\" -f6)
+issue=$(echo -e $(gh issue view "${ISSUE_URL}" --json body | cut -d\" -f4))
+color=$(gh issue view "${ISSUE_URL}" --json labels | cut -d\" -f 18)
+
+video_file=$(field 1)
+video_title=$(field   2)
+video_description=$(field    3)
+
+(
+  echo "Crie o arquivo '${video_file}.desktop' na raiz do repositório contendo: "
+  echo 
+  echo '```' >> commit.md
+  echo '[Desktop Entry]'
+  echo 'Version=1.0'
+  echo 'Type=Application'
+  echo 'Terminal=false'
+  echo "Icon=/var/lib/curso-linux/videos/${video_file}.png"
+  echo "Comment=${video_description}"
+  echo "Exec=xdg-open /var/lib/curso-linux/videos/${video_file}"
+  echo "Name=${video_title}"
+  echo '```' 
+) > commit.md
+
+gh issue comment "${ISSUE_URL}" --body-file commit.md
+
