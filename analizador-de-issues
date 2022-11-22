@@ -16,7 +16,7 @@ video_description=$(field    3)
 (
   echo "Crie o arquivo '${video_file}.desktop' na raiz do repositório contendo: "
   echo 
-  echo '```' >> commit.md
+  echo '```'
   echo '[Desktop Entry]'
   echo 'Version=1.0'
   echo 'Type=Application'
