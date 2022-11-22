@@ -21,10 +21,10 @@ video_description=$(field    3)
   echo 'Version=1.0'
   echo 'Type=Application'
   echo 'Terminal=false'
-  echo "Icon=/var/lib/curso-linux/videos/${video_file}.png"
-  echo "Comment=${video_description}"
-  echo "Exec=xdg-open /var/lib/curso-linux/videos/${video_file}"
-  echo "Name=${video_title}"
+  echo "Icon=\"/var/lib/curso-linux/videos/${video_file}.png\""
+  echo "Comment=\"${video_description}\""
+  echo "Exec=xdg-open \"/var/lib/curso-linux/videos/${video_file}\""
+  echo "Name=\"${video_title}\""
   echo '```' 
 ) > commit.md
 
