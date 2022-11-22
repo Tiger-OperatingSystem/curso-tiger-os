@@ -1,0 +1,14 @@
+name: "Gerar lançador para vídeo"
+body:
+- type: input
+  id: filename
+  attributes:
+    label: Nome do arquivo com extensão
+- type: input
+  id: videotitle
+  attributes:
+    label: Título do vídeo
+- type: input
+  id: videotitle
+  attributes:
+    label: Descrição do vídeo
