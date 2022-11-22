@@ -1,0 +1,5 @@
+#!/bin/bash
+
+ yad --borders=32 --no-buttons --fixed --width=800 --height=600 \
+     --title="Título da janela" --text="<b><big>Insira o assunto aqui</big></b>\nE o texto mais longo aqui\n" \
+     --icons --read-dir=/var/lib/curso-linux/launchers --single-click
