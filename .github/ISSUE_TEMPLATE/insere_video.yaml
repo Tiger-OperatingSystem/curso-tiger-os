@@ -1,4 +1,8 @@
 name: "Gerar lançador para vídeo"
+description: "Gera os lançadores dos vídeos"
+title: "Registro do vídeo..."
+labels: ["n-a"]
+
 body:
 - type: input
   id: filename
