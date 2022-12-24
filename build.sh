@@ -1,11 +1,19 @@
 #!/bin/bash
 
+wget "https://raw.githubusercontent.com/Tiger-OperatingSystem/alerta-videos/main/alerta-videos"
+wget "https://raw.githubusercontent.com/Tiger-OperatingSystem/alerta-videos/main/logoNew.png"
+
 mkdir -p pacote/var/lib/curso-linux/launchers
 mkdir -p pacote/var/lib/curso-linux/videos
 cp *.desktop pacote/var/lib/curso-linux/launchers
 cp *.png pacote/var/lib/curso-linux/videos
 cp curso-linux pacote/var/lib/curso-linux/
+
+mv "alerta-videos" pacote/var/lib/curso-linux/
+mv "logoNew.png" pacote/var/lib/curso-linux/
+
 chmod +x pacote/var/lib/curso-linux/curso-linux
+chmod +x pacote/var/lib/curso-linux/curso-linux/alerta-videos
 
 mkdir -p pacote/usr/share/applications
 mv pacote/var/lib/curso-linux/launchers/curso-linux.desktop pacote/usr/share/applications
