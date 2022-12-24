@@ -24,3 +24,4 @@ mkdir -p pacote/DEBIAN
 ) > "pacote/DEBIAN/control"
 
 dpkg -b pacote
+mv pacote.deb curso-linux.deb
