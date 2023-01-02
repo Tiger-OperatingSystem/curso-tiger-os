@@ -3,6 +3,6 @@
 Type=Application
 Exec=/var/lib/curso-linux/curso-linux
 Name=Aulas
-Icon=/var/lib/curso-linux/videos/curso-linux.png
+Icon=default-folder-video2.svg
 Terminal=false
 Categories=Internet;Network;
