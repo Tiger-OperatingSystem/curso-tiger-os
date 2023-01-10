@@ -4,5 +4,5 @@ Type=Application
 Terminal=false
 Icon=aula2.svg
 Comment=Aprenda como conectar a internet sem fio
-Exec=xdg-open /var/lib/curso-linux/videos/1-conectando-internet.mp4
+Exec=xdg-open /var/lib/curso-linux/videos/2-conectando-internet.mp4
 Name=Conectando a internet
