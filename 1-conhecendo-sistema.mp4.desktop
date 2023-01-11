@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon=/var/lib/curso-linux/videos/aula1.svg
+Comment=Conheça o TigerOS 23 e suas semelhanças com o Windows
+Exec=xdg-open /var/lib/curso-linux/videos/1-conhecendo-sistema.mp4
+Name=Conhecendo o TigerOS 23
