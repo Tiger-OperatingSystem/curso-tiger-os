@@ -1,8 +1,0 @@
-[Desktop Entry]
-Version=1.0
-Type=Application
-Terminal=false
-Icon=/var/lib/curso-linux/videos/aula5.svg
-Comment=Aprenda a usar o Klamav para descobrir arquivos infectados e não contaminar máquinas com Windows
-Exec=xdg-open /var/lib/curso-linux/videos/5-conhecendo-antivírus.mp4
-Name=Conhecendo o antivírus
