@@ -2,7 +2,7 @@
 Version=1.0
 Type=Application
 Terminal=false
-Icon/var/lib/curso-linux/videos/aula5.svg
+Icon=/var/lib/curso-linux/videos/aula5.svg
 Comment=Outras formas de se instalar um programa no TigerOS
 Exec=xdg-open /var/lib/curso-linux/videos/4-instalar-programas2.mp4
 Name=Instalar programas no TigerOS (parte2)
