@@ -1,5 +1,5 @@
 #!/bin/bash
 
- yad --borders=32 --no-buttons --fixed --width=800 --height=600 \
+ yad --borders=32 --no-buttons --fixed --width=1024 --height=600 \
      --title="Guia de uso básico do Tiger OS" --text="<b><big>Veja aqui micro aulas de como fazer algumas tarefas no Tiger OS</big></b>\nBasta clicar no ícone da vide-aula que ela será aberta no player de vídeos\n" \
      --icons --read-dir=/var/lib/curso-linux/launchers --single-click --center
