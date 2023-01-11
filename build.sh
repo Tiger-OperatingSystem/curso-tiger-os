@@ -6,7 +6,7 @@ wget "https://raw.githubusercontent.com/Tiger-OperatingSystem/alerta-videos/main
 mkdir -p pacote/var/lib/curso-linux/launchers
 mkdir -p pacote/var/lib/curso-linux/videos
 cp *.desktop pacote/var/lib/curso-linux/launchers
-cp *.png pacote/var/lib/curso-linux/videos
+cp *.svg pacote/var/lib/curso-linux/videos
 cp curso-linux pacote/var/lib/curso-linux/
 
 mv "alerta-videos" pacote/var/lib/curso-linux/
