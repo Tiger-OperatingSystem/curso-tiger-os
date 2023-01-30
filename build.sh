@@ -27,7 +27,7 @@ mkdir -p pacote/DEBIAN
  echo "Architecture: all"
  echo "Maintainer: Natanael Barbosa Santos"
  echo "Depends: yad"
- echo "Description: Micro video-aulas ensinando a usar os recursos do Tiger OS"
+ echo "Description: Micro videoaulas ensinando a usar os recursos do Tiger OS"
  echo
 ) > "pacote/DEBIAN/control"
 
