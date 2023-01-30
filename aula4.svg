@@ -27,7 +27,7 @@
      showgrid="false"
      inkscape:zoom="0.96568915"
      inkscape:cx="168.79138"
-     inkscape:cy="103.55299"
+     inkscape:cy="20.710598"
      inkscape:window-width="1366"
      inkscape:window-height="691"
      inkscape:window-x="0"
@@ -47,10 +47,10 @@
        y2="716.66718" /><linearGradient
        inkscape:collect="always"
        id="linearGradient6194"><stop
-         style="stop-color:#f943f9;stop-opacity:1;"
+         style="stop-color:#ffaaee;stop-opacity:1"
          offset="0"
          id="stop6190" /><stop
-         style="stop-color:#aa00d4;stop-opacity:1"
+         style="stop-color:#d400aa;stop-opacity:1"
          offset="1"
          id="stop6192" /></linearGradient></defs><g
      inkscape:label="Camada 1"
