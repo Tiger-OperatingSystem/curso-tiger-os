@@ -1,5 +1,7 @@
 #!/bin/bash
 
+set -x
+
 wget "https://raw.githubusercontent.com/Tiger-OperatingSystem/alerta-videos/main/alerta-videos"
 wget "https://raw.githubusercontent.com/Tiger-OperatingSystem/alerta-videos/main/logoNew.png"
 
